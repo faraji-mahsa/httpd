@@ -43,7 +43,6 @@ Apache HTTP Server.
 If you are installing the Apache HTTP server and you want to be
 able to compile or develop additional modules for Apache, you need
 to install this package.
-
 %package manual
 Group: Documentation
 Summary: Documentation for the Apache HTTP server.
