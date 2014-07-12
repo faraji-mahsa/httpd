@@ -1,0 +1,10 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/.build-id
+%dir /usr/lib/debug/.build-id/20
+%dir /usr/lib/debug/usr
+%dir /usr/lib/debug/usr/bin
+/usr/lib/debug/.build-id/20/d7181fbdea194e9a3054173aef8663f55a390a
+/usr/lib/debug/.build-id/20/d7181fbdea194e9a3054173aef8663f55a390a.debug
+/usr/lib/debug/usr/bin/nano.debug
+/usr/lib/debug/usr/bin/rnano.debug
+/usr/src/debug/nano-2.2.0

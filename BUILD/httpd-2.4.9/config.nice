@@ -1,0 +1,56 @@
+#! /bin/sh
+#
+# Created by configure
+
+CFLAGS="-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches  -m64 -mtune=generic"; export CFLAGS
+LDFLAGS="-Wl,-z,relro "; export LDFLAGS
+"./configure" \
+"--build=x86_64-redhat-linux-gnu" \
+"--host=x86_64-redhat-linux-gnu" \
+"--program-prefix=" \
+"--disable-dependency-tracking" \
+"--prefix=/usr" \
+"--exec-prefix=/usr" \
+"--bindir=/usr/bin" \
+"--sbindir=/usr/sbin" \
+"--sysconfdir=/etc" \
+"--datadir=/usr/share" \
+"--includedir=/usr/include" \
+"--libexecdir=/usr/libexec" \
+"--localstatedir=/var" \
+"--sharedstatedir=/var/lib" \
+"--mandir=/usr/share/man" \
+"--infodir=/usr/share/info" \
+"--enable-layout=RPM" \
+"--libdir=/usr/lib64" \
+"--sysconfdir=/etc/httpd/conf" \
+"--includedir=/usr/include/httpd" \
+"--libexecdir=/usr/lib64/httpd/modules" \
+"--datadir=/var/www" \
+"--with-installbuilddir=/usr/lib64/httpd/build" \
+"--enable-mpms-shared=all" \
+"--with-apr=/usr" \
+"--with-apr-util=/usr" \
+"--enable-suexec" \
+"--with-suexec" \
+"--with-suexec-caller=apache" \
+"--with-suexec-docroot=/var/www" \
+"--with-suexec-logfile=/var/log/httpd/suexec.log" \
+"--with-suexec-bin=/usr/sbin/suexec" \
+"--with-suexec-uidmin=500" \
+"--with-suexec-gidmin=100" \
+"--enable-pie" \
+"--with-pcre" \
+"--enable-mods-shared=all" \
+"--enable-ssl" \
+"--with-ssl" \
+"--enable-socache-dc" \
+"--enable-bucketeer" \
+"--enable-case-filter" \
+"--enable-case-filter-in" \
+"--disable-imagemap" \
+"build_alias=x86_64-redhat-linux-gnu" \
+"host_alias=x86_64-redhat-linux-gnu" \
+"CFLAGS=-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic" \
+"LDFLAGS=-Wl,-z,relro" \
+"$@"
